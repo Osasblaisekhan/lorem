@@ -1,0 +1,30 @@
+main{
+    background-color: brown;
+    padding-left: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.aside_1{
+    height: 40vh;
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hotpink;
+    overflow: scroll;
+}
+.aside_2{
+    height: 40vh;
+    width: 25%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: linear-gradient(65deg, red, white);
+    overflow: auto;
+}
+@media screen and (max-width: 800px)
+    {
+        .aside_1 .aside_2{
+            width: 100%;
+        }
+    }
